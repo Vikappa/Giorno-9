@@ -123,19 +123,33 @@ Crea una funzione chiamata "average" che riceve un array come parametro e ne rit
 
 // }
 
-average()
 /* EXTRA 8
  Crea una funzione chiamata "longest" che trova la stringa più lunga all'interno di un array di stringhe fornito come parametro.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function longest(stringArray = []) {
+//     const record = {
+//         index: 0,
+//         length: 0,
+//     }
+
+//     record.length = stringArray[0].length
+
+//     for (let i = 1; i < stringArray.length; i++) {
+//         if(record.length<stringArray[i].length){
+//             record.index = i
+//             record.length = stringArray[i].length
+//         }
+//     }
+//     return stringArray[record.index]
+// }
 
 /* EXTRA 9
  Crea una funzione per creare un filtro anti-spam per la tua casella email. La funzione riceve un parametro stringa chiamato "emailContent", e torna un valore booleano.
  La funzione deve ritornare true se "emailContent" non contiene le parole "SPAM" o "SCAM".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* EXTRA 10
  Scrivi una funzione che riceve una data come parametro, e calcola il numero di giorni passati da quella data.
