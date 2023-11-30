@@ -81,13 +81,30 @@
  Crea una funzione chiamata "latestShoppingCart" che riceve l'array "shoppingCart" e ritorna l'ultimo elemento.
 */
 
+// function latestShoppingCart(shoppingCart) {
+//     return latestShoppingCart[latestShoppingCart.length - 1]
+// }
 
 /* EXTRA 6
  Crea una funzione chiamata "loopUntil" che riceve un numero intero come parametro con valore tra 0 e 9.
  La funzione è composta da un ciclo che stampa un numero casuale tra 0 e 9 finchè il numero casuale non è maggiore di x per tre volte di fila.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function loopUntil(numIntero) {
+//     maggioreDiX = 0
+
+//     while (maggioreDiX < 3) {
+//         let numeroCasuale = Math.floor(Math.random() * 10);
+//         console.log(numeroCasuale)
+//         if (numeroCasuale > numIntero) {
+//             maggioreDiX++
+//         } else {
+//             maggioreDiX = 0
+//         }
+//     }
+// }
+
+// loopUntil(6)
 
 /* EXTRA 7
 Crea una funzione chiamata "average" che riceve un array come parametro e ne ritorna la media aritmetica. La funzione salta automaticamente i valori non numerici nell'array.
