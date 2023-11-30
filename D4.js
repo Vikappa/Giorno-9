@@ -109,24 +109,24 @@
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
-function upperFirst(longString) {
-    let ritorno = longString.charAt(0).toUpperCase();
+// function upperFirst(longString) {
+//     let ritorno = longString.charAt(0).toUpperCase();
 
-    // non faccio i controlli se la stringa in ingresso è una frase formata da diverse parole perchè è appena iniziata la live di angelo cammaroto
-    for (let index = 1; index < longString.length; index++) {
-        if (longString.charAt(index - 1) === " " && longString.charAt(index) !== " ") {
-            ritorno = ritorno + "" + (longString.charAt(index)).toUpperCase();
-            console.log("Carattere [" + longString.charAt(index) + "] DataType " + typeof longString.charAt(index))
-        }
-        else {
-            ritorno = ritorno.concat(longString.charAt(index));
-        }
-    }
-    console.log("Ritorno: " + ritorno)
-}
+//     // non faccio i controlli se la stringa in ingresso è una frase formata da diverse parole perchè è appena iniziata la live di angelo cammaroto
+//     for (let index = 1; index < longString.length; index++) {
+//         if (longString.charAt(index - 1) === " " && longString.charAt(index) !== " ") {
+//             ritorno = ritorno + "" + (longString.charAt(index)).toUpperCase();
+//             console.log("Carattere [" + longString.charAt(index) + "] DataType " + typeof longString.charAt(index))
+//         }
+//         else {
+//             ritorno = ritorno.concat(longString.charAt(index));
+//         }
+//     }
+//     console.log("Ritorno: " + ritorno)
+// }
 
+// upperFirst("Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum maxime nesciunt. Esse deserunt repellat eius totam doloremque tempore corporis modi animi quam officia maiores, ab debitis magnam perferendis")
 
-upperFirst("Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum maxime nesciunt. Esse deserunt repellat eius totam doloremque tempore corporis modi animi quam officia maiores, ab debitis magnam perferendis")
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
@@ -146,8 +146,6 @@ upperFirst("Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam do
 //     console.log(typeof ritorno)
 //     for (let i = 0; i < n; i++) {
 //         ritorno = ritorno.concat(Math.floor(Math.random() * 10))
-//         console.log(Math.floor(Math.random() * 10))
-
 //     }
 //     console.log(ritorno)
 // }
