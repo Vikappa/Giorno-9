@@ -110,8 +110,20 @@
 Crea una funzione chiamata "average" che riceve un array come parametro e ne ritorna la media aritmetica. La funzione salta automaticamente i valori non numerici nell'array.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function average(arrayParametro) {
 
+//     let nValori = arrayParametro.length - 1
+//     let sommaVal = 0;
+
+//     for (let i = 0; i < arrayParametro.length; i++) {
+//         sommaVal += arrayParametro[i]
+//     }
+
+//     return sommaVal / nValori
+
+// }
+
+average()
 /* EXTRA 8
  Crea una funzione chiamata "longest" che trova la stringa più lunga all'interno di un array di stringhe fornito come parametro.
 */
