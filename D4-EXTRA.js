@@ -148,8 +148,19 @@ Crea una funzione chiamata "average" che riceve un array come parametro e ne rit
  Crea una funzione per creare un filtro anti-spam per la tua casella email. La funzione riceve un parametro stringa chiamato "emailContent", e torna un valore booleano.
  La funzione deve ritornare true se "emailContent" non contiene le parole "SPAM" o "SCAM".
 */
+// antiSpam("We we leggite ssu scam")
 
-
+// function antiSpam(emailContent) {
+//     let toScan = emailContent.toLowerCase()
+//     if (toScan.indexOf("spam") === -1 && toScan.indexOf("scam") === -1) {
+//         console.log("Safe")
+//         return true
+//     }
+//     else {
+//         console.log("Spam")
+//         return false
+//     }
+// }
 
 /* EXTRA 10
  Scrivi una funzione che riceve una data come parametro, e calcola il numero di giorni passati da quella data.
