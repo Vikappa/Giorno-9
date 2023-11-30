@@ -44,21 +44,43 @@
  Crea una funzione chiamata "addToShoppingCart" che riceve un nuovo oggetto dello stesso tipo, lo aggiunge a "shoppingCart" e ritorna il nuovo numero totale degli elementi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function addToShoppingCart(oggettoCarrello) {
+//     for (let i = 0; i < shoppingCart.length; i++) {
+//         if (
+//             oggettoCarrello.name === shoppingCart[i].name
+//         ) {
+//             shoppingCart[i].quantity++
+//         }
+//     }
+// }
 
 /* EXTRA 4
  Nel tuo eCommerce disponi di un'array di oggetti chiamato "shoppingCart". Ognuno di questi oggetti ha le seguenti proprietà: "price", "name", "id" e "quantity".
  Crea una funzione chiamata "maxShoppingCart" che riceve l'array "shoppingCart" e ritorna l'oggetto più costoso in esso contenuto.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function maxShoppingCart(shoppingCart) {
+//     const record = {
+//         index: 0,
+//         prezzo: 0,
+//     }
+
+//     record.price = shoppingCart[0].price
+
+//     for (let i = 0; i < array.length; i++) {
+//         if (shoppingCart[i].price > record.price) {
+//             record.price = shoppingCart[i].price
+//             record.index = i
+//         }
+//     }
+//     return shoppingCart[record.index]
+// }
 
 /* EXTRA 5
  Nel tuo eCommerce disponi di un'array di oggetti chiamato "shoppingCart". Ognuno di questi oggetti ha le seguenti proprietà: "price", "name", "id" e "quantity".
  Crea una funzione chiamata "latestShoppingCart" che riceve l'array "shoppingCart" e ritorna l'ultimo elemento.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* EXTRA 6
  Crea una funzione chiamata "loopUntil" che riceve un numero intero come parametro con valore tra 0 e 9.
