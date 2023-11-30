@@ -187,20 +187,20 @@ Crea una funzione chiamata "average" che riceve un array come parametro e ne rit
  "10","11","12"]
 */
 
-// function matrixGenerator(x, y) {
+function matrixGenerator(x, y) {
 
-//     const valoreRitorno = []
-//     let index = 0
-//     let stringaRitorno = ""
-//     for (let xFor = 0; xFor < x; xFor++) {
-//         for (let yFor = 0; yFor < x; yFor++) {
-//             valoreRitorno[index] = parseInt(xFor + "" + yFor)
-//             stringaRitorno = stringaRitorno.concat("[" + xFor + "" + yFor + "],")
-//         }
-//         stringaRitorno = stringaRitorno.concat("\n")
-//     }
-//     console.log(stringaRitorno)
-//     return valoreRitorno
-// }
+    const valoreRitorno = []
+    let index = 0
+    let stringaRitorno = ""
+    for (let xFor = 0; xFor < x; xFor++) {
+        for (let yFor = 0; yFor < x; yFor++) {
+            valoreRitorno[index] = parseInt(xFor + "" + yFor)
+            stringaRitorno = stringaRitorno.concat("[" + xFor + "" + yFor + "],")
+        }
+        stringaRitorno = stringaRitorno.concat("\n")
+    }
+    console.log(stringaRitorno)
+    return valoreRitorno
+}
 
-// matrixGenerator(3, 5)
+matrixGenerator(3, 5)
