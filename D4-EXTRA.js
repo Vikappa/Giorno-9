@@ -166,6 +166,17 @@ Crea una funzione chiamata "average" che riceve un array come parametro e ne rit
  Scrivi una funzione che riceve una data come parametro, e calcola il numero di giorni passati da quella data.
 */
 
+// function quantoTempo(dateInput) {
+//     // Creazione di due oggetti Date rappresentanti due date diverse
+//     var today = new Date(); // Gli oggetti date dichiarati in questo modo sono automaticamente impostati al valore di millisecondi corrente
+//     console.log('La differenza tra le date è di', (today - dateInput) / (1000 * 60 * 60 * 24), 'giorni');// Le date sono "contenitori di millisecondi", facendo la differenza ottengo una differenza in millisecondi
+//     //per convertire i millisecondi i giorni divido per mille -> Diventano secondi / 60 -> diventano minuti -> /60 -> diventano ore -> /24 diventano giorni
+// }
+
+// quantoTempo(new Date('2020-10-05'))
+
+
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* EXTRA 11
@@ -176,4 +187,20 @@ Crea una funzione chiamata "average" che riceve un array come parametro e ne rit
  "10","11","12"]
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function matrixGenerator(x, y) {
+
+//     const valoreRitorno = []
+//     let index = 0
+//     let stringaRitorno = ""
+//     for (let xFor = 0; xFor < x; xFor++) {
+//         for (let yFor = 0; yFor < x; yFor++) {
+//             valoreRitorno[index] = parseInt(xFor + "" + yFor)
+//             stringaRitorno = stringaRitorno.concat("[" + xFor + "" + yFor + "],")
+//         }
+//         stringaRitorno = stringaRitorno.concat("\n")
+//     }
+//     console.log(stringaRitorno)
+//     return valoreRitorno
+// }
+
+// matrixGenerator(3, 5)
